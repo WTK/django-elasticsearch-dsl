@@ -58,7 +58,7 @@ class Command(BaseCommand):
             '--chunk-size',
             metavar='chunk_size',
             type=int,
-            nargs='*',
+            #nargs='*',
             help="Chunk size for bulk insert/update."
         )
 
